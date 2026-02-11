@@ -1,7 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import TradingWebhookDemo from './TradingWebDemo.jsx'
+import App from './App.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <TradingWebhookDemo />
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
 )
