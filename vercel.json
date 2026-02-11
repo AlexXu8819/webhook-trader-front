@@ -1,8 +1,9 @@
 {
-    "rewrites": [
-      {
-        "source": "/api/:path*",
-        "destination": "https://webhook-trader.duckdns.org/:path*"
-      }
-    ]
-  }
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://webhook-trader.duckdns.org/:path*"
+    }
+  ]
+}
