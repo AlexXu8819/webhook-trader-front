@@ -2,7 +2,7 @@
     "rewrites": [
       {
         "source": "/api/:path*",
-        "destination": "http://你的GCP外部IP/api/:path*"
+        "destination": "http://34.58.94.127//api/:path*"
       }
     ]
   }
